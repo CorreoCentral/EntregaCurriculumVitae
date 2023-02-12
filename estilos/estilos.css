@@ -1,0 +1,47 @@
+/**
+Esto es un comentario en CSS para identificar las cosas
+*/
+
+
+h1 {
+    font-family: Garamond, serif;
+    text-align: center;
+    color: black
+}
+
+.borde {
+    font-family: Garamond, serif;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.borde2 {
+    font-family: Garamond, serif;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+
+p {
+    font-family: Garamond, serif;
+    color: black;
+    font-style: garamond
+}
+
+h6 {
+    font-family: Garamond, serif;
+    color: black;
+    font-style: garamond;
+}
+
+
+.derecha {
+    float: right;
+
+}
