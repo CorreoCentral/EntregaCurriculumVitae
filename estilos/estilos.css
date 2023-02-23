@@ -1,47 +1,82 @@
-/**
-Esto es un comentario en CSS para identificar las cosas
-*/
+html {
+  font-size: 18px;
 
-
-h1 {
-    font-family: Garamond, serif;
-    text-align: center;
-    color: black
-}
-
-.borde {
-    font-family: Garamond, serif;
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-}
-
-.borde2 {
-    font-family: Garamond, serif;
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
 }
 
 body {
-    background-color: white;
+  background-color: #BEBEBE;
 }
 
+img {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border: 3px solid gray;
+}
+
+main {
+  margin: 40px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 35px;
+}
+
+h1 {
+  color: black;
+  font-size: 2em;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+h3 {
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  font-weight: 200;
+  color: grey;
+  margin: 15px;
+  padding: 15px;
+
+}
 
 p {
-    font-family: Garamond, serif;
-    color: black;
-    font-style: garamond
+  margin: 15px;
+  width: 600px;
+  height: 200px;
+  text-align: justify;
+  color: black;
+  font-size: x-small;
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-h6 {
-    font-family: Garamond, serif;
-    color: black;
-    font-style: garamond;
+li {
+  list-style: none;
+  display: inline;
+  color: black;
+  font-size: x-small;
+  padding: 30px;
+  font-family: "Courier New", Courier, monospace;
 }
 
+a:link {
+  color: black;
+  text-decoration: none;
+}
 
-.derecha {
-    float: right;
+a:hover {
+  color: grey;
 
+}
+
+footer {
+  text-align: center;
+  font: "lucida-grande";
+  font-size: x-small;
+  color: gray;
+  font-weight: 50;
+  padding: 10px;
+}
+
+span {
+  font-style: italic;
 }
