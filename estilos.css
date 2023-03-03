@@ -85,7 +85,7 @@ p {
   height: 200px;
   text-align: justify;
   color: black;
-  font-size: x-small;
+  font-size: small;
   padding: 15px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -94,7 +94,7 @@ li {
   list-style: none;
   display: inline;
   color: black;
-  font-size: x-small;
+  font-size: small;
   padding: 30px;
   font-family: "Courier New", Courier, monospace;
 }
